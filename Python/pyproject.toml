@@ -1,0 +1,14 @@
+[project]
+name = "hiwonder-xarm1s-servo-controller"  # Lowercase name
+version = "0.1.0"
+description = "Hiwonder-xArm1S Servo Controller"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Chris Courson", email = "chris@chrisbot.com" }
+]
+homepage = "https://github.com/ccourson/Hiwonder-xArm1S"
+requires-python = ">=3.6"
+dependencies = [
+    "pywinusb",
+]

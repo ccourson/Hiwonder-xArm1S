@@ -1,8 +1,8 @@
 ﻿# xArmServoController
 
-Servo controller libraries for `Lewan-Soul`/`Lobot`/`Hiwonder` xArm and LeArm 6-DOF robotic arm.
+Servo controller libraries for `Lewan-Soul`/`Lobot`/`Hiwonder` xArm1S and LeArm 6-DOF robotic arm.
 
-* [xArm is available here on Amazon.com](https://www.amazon.com/LewanSoul-Programmable-Feedback-Parameter-Programming/dp/B0793PFGCY).
+* [Hiwonder-xArm1s is available here on Amazon.com](https://www.amazon.com/LewanSoul-Programmable-Feedback-Parameter-Programming/dp/B0793PFGCY).
 * [LeArm is available here on Amazon.com](https://www.amazon.com/LewanSoul-Programmable-Feedback-Parameter-Programming/dp/B074T6DPKX)
 
 Join the [LewanSoul-xArm Enthusiast group on Facebook](https://www.facebook.com/groups/xarm6dof).

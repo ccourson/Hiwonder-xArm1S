@@ -1,23 +1,30 @@
-# -*- coding: utf-8 -*-
-
-from setuptools import setup, find_packages
-
-
-with open('README.md') as f:
-    readme = f.read()
-
-with open('LICENSE') as f:
-    license = f.read()
-
 setup(
-    name='xarm',
+    name='hiwonder-xarm1s-servo-controller',  # Lowercase name
     version='0.1.0',
-    description='Lobot xArm Controller',
-    long_description=readme,
+    description='Hiwonder-xArm1S Servo Controller',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     author='Chris Courson',
     author_email='chris@chrisbot.com',
-    url='https://github.com/ccourson/xArmServoController/tree/master/PC/Python/xarm',
-    license=license,
-    packages=find_packages(exclude=('tests', 'docs', 'old')),
-    install_requires=['pywinusb']
+    url='https://github.com/ccourson/Hiwonder-xArm1S',
+    license='MIT',
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'},
+    python_requires='>=3.6',
+    install_requires=[
+        'pywinusb',
+    ],
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Operating System :: OS Independent',
+    ],
+    keywords='xarm robotic-arm servo controller hiwonder',
 )
